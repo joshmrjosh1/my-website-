@@ -124,10 +124,29 @@ window.addEventListener('scroll', function () {
 })();
 
 // ===== MODALS =====
+<<<<<<< HEAD
+// function openModal(id) {
+//   document.getElementById(id).classList.add('open');
+//   document.body.style.overflow = 'hidden';
+// }
+function openModal(id, imagePath) {
+  const modal = document.getElementById(id);
+  const modalImg = modal.querySelector('img');
+  
+  if (imagePath) {
+    modalImg.src = imagePath; // Set the image dynamically
+  }
+  
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+=======
 function openModal(id) {
   document.getElementById(id).classList.add('open');
   document.body.style.overflow = 'hidden';
 }
+>>>>>>> aa40ca3d2cd73811ca4293f017506f77efcf6d1a
 function closeModal(id) {
   document.getElementById(id).classList.remove('open');
   document.body.style.overflow = '';

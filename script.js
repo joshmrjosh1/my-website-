@@ -124,7 +124,6 @@ window.addEventListener('scroll', function () {
 })();
 
 // ===== MODALS =====
-<<<<<<< HEAD
 // function openModal(id) {
 //   document.getElementById(id).classList.add('open');
 //   document.body.style.overflow = 'hidden';
@@ -141,12 +140,6 @@ function openModal(id, imagePath) {
   document.body.style.overflow = 'hidden';
 }
 
-=======
-function openModal(id) {
-  document.getElementById(id).classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
->>>>>>> aa40ca3d2cd73811ca4293f017506f77efcf6d1a
 function closeModal(id) {
   document.getElementById(id).classList.remove('open');
   document.body.style.overflow = '';
